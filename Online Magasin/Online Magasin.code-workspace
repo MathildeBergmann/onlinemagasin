@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Online Magasin",
+			"path": "."
+		},
+		{
+			"name": "Morten øvelse (maga)",
+			"path": "../Morten øvelse (maga)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Online Magasin"
+	}
+}

@@ -1,0 +1,203 @@
+.body_page {
+    font-family: bodoni;
+    background-color: #ffffff;
+}
+
+/* Menubaren */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(236, 236, 227);
+}
+
+nav p {
+    font-family: bodoni;
+    color: #222;
+    font-size: 24px;
+    line-height: 55px;
+    float: right;
+    padding: 20px 20px;
+}
+
+nav ul {
+    float: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+    padding-top: 20px;
+
+}
+
+nav ul li a {
+    display: block;
+    font-family: bodoni;
+    color: #222;
+    font-size: 22px;
+    padding: 24px 14px;
+    text-decoration: none;
+    color: rgba(53, 100, 53, 0.674);
+    border-right: 1px solid rgb(149, 146, 146);
+    
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background: rgb(232, 232, 218);
+}
+
+
+
+.logo {
+    float: left;
+    text-decoration: none;
+    color: rgb(78, 104, 82);
+    font-size: 34px;
+    margin: 5px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding-left: 40px;
+    position: sticky;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* main */
+
+.overskrift_forside {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 35px;
+    font-family: bodoni;
+    font-weight: lighter;
+}
+
+
+.tøj_billede_forside {
+    flex-direction: column;
+    padding-right: 600px;
+    float: right;
+}
+
+.video {
+    justify-content: center;
+    align-items: center;
+    padding-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.section_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 10px auto 30px;
+}
+
+.editorial {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.editorial_card {
+    text-align: center;
+    background-color: rgba(197, 197, 184, 0.31);
+    padding-right: 20px;
+    padding-top: 10px;
+    line-height: 1.355;
+    padding-left: 20px;
+    width: 680px;
+    height: 390px;
+}
+
+.editorial_heading {
+    margin-bottom: 16px;
+}
+
+
+.tekst_billede {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    justify-content: space-between;
+    
+}
+
+.logo_mærke {
+    width: 80px;
+    padding-left: 630px;
+    flex-direction: column;
+}
+
+.logo_mærke_to {
+    width: 80px;
+
+}
+
+.overskrift_to {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 50px;
+    font-style: italic;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+/* Footer */
+
+.footer_page {
+    background-color:rgb(106, 150, 125);
+}
+
+.footer_page {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(98, 120, 100);
+    color: rgb(255, 255, 255);
+    text-align: center;
+} 
+
+.footer_card {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.socialemedier {
+    width: 30px;
+    align-items: center;
+    padding-top: 20px;
+}
